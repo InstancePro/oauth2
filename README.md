@@ -23,6 +23,11 @@ The only way to install this extension is by using [Composer][1]. In your Compos
 To add an OAuth2 Server for login, we recommend you create your own little extension, use your existing site 
 package or put the configuration in your `typo3conf/AdditionalConfiguration.php`.
 
+In "Extension Configuration" check the field "Enable backend login".
+
+* Version 0.x: fieldname is "gitlab.enableBackendLogin"
+* Version 1.x: fieldname is "enableBackendLogin"
+
 #### 2.1) Using the GitLab Provider included in this extension  
 
 Configuring the GitLab Login Provider is pretty straight forward. Just put the following configuration into your `ext_localconf.php` 
